@@ -1,0 +1,26 @@
+{
+  "name": "word-math",
+  "version": "0.1.0",
+  "description": "REPL for vector arithmetic on word embeddings",
+  "main": "dist/index.js",
+  "bin": {
+    "word-math": "./bin/word-math"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "node --test dist/**/*.test.js"
+  },
+  "type": "module",
+  "keywords": [
+    "word2vec",
+    "embeddings",
+    "nlp",
+    "repl"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "typescript": "^5.9.3"
+  }
+}
